@@ -19,3 +19,9 @@ const typed = new Typed('.typed', {
 	contentType: 'html', // 'html' o 'null' para texto sin formato
 });
 
+
+const mesaje = document.getElementById("texto");
+
+mesaje.addEventListener("click", function() {
+	alert("Pronto Agregaremos Funcionalidad a este boton para que te puedas registrar :)")
+});
